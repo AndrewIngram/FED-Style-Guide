@@ -44,10 +44,9 @@ v1.6.1 | Last Updated: 2010-09-17 | Author: Richard Clark (richclarkdesign.com)
 			/*Block elements*/   
 				p{margin:0 0 0.82em 0;line-height:1.45em;}
 				hgroup{position:relative;}
-				h1,h2,h3,h4,h5,h6,.faux_h2{line-height:1.3em;font-weight:normal;margin:2.08em 0 0.41em 0;}
-					h1{font-size:3em;margin:1.1em 0 0.83em 0;color:#111;} 
-					h2{color:#111;}
-					h2,h3,h4,h5,h6,.faux_h2{font-size:1em;}
+				h1,h2,h3,h4,h5,h6{line-height:1.3em;font-weight:normal;margin:2.08em 0 0.41em 0;color:#111;}
+					h1{font-size:3em;margin:1.1em 0 0.83em 0;} 
+					h2,h3,h4,h5,h6{font-size:1em;}
 				ul,ol,dl{margin:0 0 1.1em 2.5em;padding:1.1em 0 0 0;}	
 						ul li,ol li{margin:0 0 0.41em 0;}
 					ul{list-style:disc outside;}
@@ -57,7 +56,7 @@ v1.6.1 | Last Updated: 2010-09-17 | Author: Richard Clark (richclarkdesign.com)
 					dl{padding:0;}
 						dt{font-weight:bold;margin:0 0 0.41em 0;padding:1.1em 0 0 0;color:#0067A2;}
 						dd{margin:0 0 0.41em 0;}
-				blockquote{margin:0 0 2.5em 0;padding:1.1em 0 0 0;font-style:italic;background:transparent url('../images/global/content-bg_blockquoteBg.gif') no-repeat 0 1.4em;min-height:25px;}
+				blockquote{margin:0 0 2.5em 0;padding:1.1em 0 0 0;font-style:italic;}
 					blockquote p{color:#1AAB8A;margin-left:2.5em;}
 					blockquote footer{display:block;margin:-0.41em 0 0 2.5em;}
 				hr{border-top:1px dotted #ccc;padding:1.1em 0;margin:2.1em 0 0 0;}	
