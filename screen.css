@@ -54,7 +54,7 @@ v1.6.1 | Last Updated: 2010-09-17 | Author: Richard Clark (richclarkdesign.com)
 					ol{list-style:decimal outside;}
 						ol ol{margin:0.25em 0 0.5em 1.4em;list-style-type:lower-roman;}
 					dl{padding:0;}
-						dt{font-weight:bold;margin:0 0 0.41em 0;padding:1.1em 0 0 0;color:#0067A2;}
+						dt{font-weight:bold;margin:0 0 0.41em 0;padding:1.1em 0 0 0;}
 						dd{margin:0 0 0.41em 0;}
 				blockquote{margin:0 0 2.5em 0;padding:1.1em 0 0 0;font-style:italic;}
 					blockquote p{color:#1AAB8A;margin-left:2.5em;}
