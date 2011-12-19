@@ -7,4 +7,16 @@ Last revised: --
 --
 Contents:
 --
-==================*/
+==================*/   
+
+/*========
+[=1:Global layout styles]
+======== */                                                  
+	html{background:#eee;}
+	body{width:600px;margin:0 auto;padding:2em 20px;background:#fff;}
+	header[role="banner"]{border-bottom:2px solid #000;padding:0 0 1em 0;}
+		header[role="banner"] h1,
+		header[role="banner"] h2
+		{margin:0;font-size:2em;}
+		
+
