@@ -105,25 +105,10 @@ v1.6.1 | Last Updated: 2010-09-17 | Author: Richard Clark (richclarkdesign.com)
 			form{margin:0 0 1em 0;}
 				legend{margin:0 0 0.25em 0;}
 				label{display:block;margin:0 0 0.25em 0;}
-<<<<<<< HEAD
-<<<<<<< HEAD
-				input[type="text"],textarea{display:block;width:auto;margin:0 0 0.78em 0;padding:0.5em 5px;border:1px solid #D1D1D1;font-size:1em;line-height:1.4em;width:100%;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
-				legend{display:none;} 
 		/*Set styles for full forms (sets of inputs/labels should always be encased in an ordered list for example)*/  
-				
-=======
-=======
->>>>>>> gh-pages
 				input,textarea{display:block;width:auto;margin:0 0 0.78em 0;padding:0.5em 5px;border:1px solid #D1D1D1;font-size:1em;line-height:1.4em;width:100%;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
 				input[type="radio"],input[type="checkbox"]{width:auto;border:none;}
 				legend{display:none;} 
-		/*Set styles for full forms (sets of inputs/labels should always be encased in an ordered list for example)*/  
-				
-				
-<<<<<<< HEAD
->>>>>>> gh-pages
-=======
->>>>>>> gh-pages
 	/*--[=2e:Tables]--*/
 		table{margin:0 0 1em 0;width:100%;border:1px solid #ccc;}
 			caption{text-align:left;padding:0 0 0.5em 0;}
