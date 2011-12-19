@@ -40,11 +40,11 @@ v1.6.1 | Last Updated: 2010-09-17 | Author: Richard Clark (richclarkdesign.com)
 		
 		/*-Set base rules for all typographic elements*/
 			/*Set base font-family/line-height and declare the px size of an em unit*/    
-				body{font:12px/1.45em "Trebuchet MS",Trebuchet,"Droid Sans",Ubuntu,helvetica,sans-serif;color:#666;}
+				body{font:12px/1.45em Arial,helvetica,sans-serif;color:#666;}
 			/*Block elements*/   
 				p{margin:0 0 0.82em 0;line-height:1.45em;}
 				hgroup{position:relative;}
-				h1,h2,h3,h4,h5,h6,.faux_h2{line-height:1.3em;font-weight:normal;margin:2.08em 0 0.41em 0;text-transform:uppercase;}
+				h1,h2,h3,h4,h5,h6,.faux_h2{line-height:1.3em;font-weight:normal;margin:2.08em 0 0.41em 0;}
 					h1{font-size:3em;margin:1.1em 0 0.83em 0;color:#111;} 
 					h2{color:#111;}
 					h2,h3,h4,h5,h6,.faux_h2{font-size:1em;}

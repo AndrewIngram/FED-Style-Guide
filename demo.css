@@ -10,13 +10,29 @@ Contents:
 ==================*/   
 
 /*========
+[=0: Set font-face rules]
+========*/
+	h1,header[role="banner"] h2{font-family: 'Lobster', cursive;}
+/*========
 [=1:Global layout styles]
 ======== */                                                  
 	html{background:#eee;}
-	body{width:600px;margin:0 auto;padding:2em 20px;background:#fff;}
-	header[role="banner"]{border-bottom:2px solid #000;padding:0 0 1em 0;}
+	body{width:600px;margin:0 auto;}
+	header[role="banner"]{background:#ccc;border-radius:1em;padding:0.5em 0 2em 0;text-align:center;margin:4em 0 2em 0;}
 		header[role="banner"] h1,
 		header[role="banner"] h2
-		{margin:0;font-size:2em;}
+		{margin:0;font-size:5em;     
+		 color:#333;   
+		 text-shadow:
+			3px 3px 0 #fff,
+			2px 2px 0 #fff,
+			1px 1px 0 #fff,
+			0 0 3px #fff;
+		}
+	article{background:#fff;padding:1em 15px;margin:0 0 2em 0;border-radius:1em;}	
+		article h1:nth-of-type(1){margin-top:0;text-align:center;border-bottom:2px solid #eee;padding:0 0 0.5em 0;}	
+		article h1:nth-of-type(1):before,
+		article h1:nth-of-type(1):after
+		{content:"-";}	
 		
 
