@@ -28,11 +28,12 @@ Contents:
 			-o-transition: all .2s ease-in-out;
 			-ms-transition: all .2s ease-in-out;
 			transition: all .2s ease-in-out;}
-	   		nav[role="navigation"] a:hover{color:#000;}
 			nav[role="navigation"] li:nth-child(even) a{background:#FBFBFB;}
 			nav[role="navigation"] li:first-child a{border-top:none;}  
-			nav[role="navigation"] li:last-child a{border-bottom:none;border-radius:0 0 1em 1em;}  
-			.cpt-top_link{position:fixed;bottom:-2px;background:#ccc;border-radius:1em 1em 0 0;box-shadow:0 0 3px #ccc;border:1px solid #eee;text-shadow:0 1px 0 #fff;}
+			nav[role="navigation"] li:last-child a{border-bottom:none;border-radius:0 0 1em 1em;}      
+			nav[role="navigation"] a:hover,nav[role="navigation"] li:nth-child(even) a:hover{color:#000;background:#ccc;cursor:pointer;box-shadow:inset 0 0 3px #333;}
+			.cpt-top_link{position:fixed;bottom:-2px;background:#ccc;border-radius:1em 1em 0 0;box-shadow:0 0 3px #ccc;border:1px solid #eee;text-shadow:0 1px 0 #fff;width:100px;line-height:1.5em;text-align:center;}
+				.cpt-top_link:hover{line-height:3em;}
 	
 	header[role="banner"]{text-align:center;margin:0 0 3em 0;} 
 		header hgroup{margin:0 0 2em 0;}
