@@ -19,16 +19,18 @@ Contents:
 	html{background:#eee;}
 	body{width:960px;margin:0 auto;} 
 	
-	nav[role="navigation"]{position:relative;margin-top:2em;}		
-		nav[role="navigation"] ol{list-style:none;margin:0;padding:0;width:300px;float:left;background:#fff;border-radius:1em;position:fixed;}
+	nav[role="navigation"]{position:relative;}		
+		nav[role="navigation"] ol{list-style:none;margin:1em 0 0 0;padding:0;width:300px;float:left;background:#fff;border-radius:1em;position:fixed;}
 		nav[role="navigation"] li{display:inline;margin:0;}
-		nav[role="navigation"] a{display:block;border-bottom:2px solid #eee;padding:1em 15px;color:#000;font-weight:bold;
+		nav[role="navigation"] a{display:block;border-bottom:2px solid #eee;padding:0.5em 10px;color:#000;font-weight:bold;
 			-webkit-transition: all .2s ease-in-out;
 			-moz-transition: all .2s ease-in-out;
 			-o-transition: all .2s ease-in-out;
 			-ms-transition: all .2s ease-in-out;
 			transition: all .2s ease-in-out;}
 	   		nav[role="navigation"] a:hover{color:#999;}
+			nav[role="navigation"] li:last-child a{border-bottom:none;}  
+			.cpt-top_link{position:fixed;bottom:-2px;background:#ccc;border-radius:1em 1em 0 0;box-shadow:0 0 3px #ccc;border:1px solid #eee;text-shadow:0 1px 0 #fff;}
 	
 	header[role="banner"]{text-align:center;margin:0 0 3em 0;} 
 		header hgroup{margin:0 0 2em 0;}
@@ -43,4 +45,5 @@ Contents:
 			article h1:nth-of-type(1){margin-top:0;text-align:center;border-bottom:2px solid #eee;padding:0 0 0.5em 0;}	
 			article h1:nth-of-type(1):before,
 			article h1:nth-of-type(1):after
-			{content:"-";}	           
+			{content:"-";}	    
+		#page-footer{padding:1em 0 2em 0;text-shadow:0 1px 0 #fff;}       
